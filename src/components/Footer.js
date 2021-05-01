@@ -1,7 +1,6 @@
 import React from 'react';
 import email from './../images/email.png'
 import strava from './../images/strava.png'
-import twitter from './../images/twitter.png'
 import instagram from './../images/instagram.png'
 
 export default function Footer() {
@@ -13,13 +12,17 @@ export default function Footer() {
         </div>
 
         <div className="footer-socials">
-          <a href="mailto:someone@yoursite.com" target="_blank" rel="noreferrer">
+          <a href="mailto:info@coachedbyfinn.com" target="_blank" rel="noreferrer">
             <img className="socials-icons" src={email} alt="email" />
           </a>
+          <a href=" https://www.instagram.com/coachedbyfinn/?hl=en" target="_blank" rel="noreferrer">
+            <img className="socials-icons" src={instagram} alt="instagram" />
+          </a>
+          <a href=" https://www.strava.com/athletes/3390803" target="_blank" rel="noreferrer">
+            <img className="socials-icons" src={strava} alt="strava" />
+          </a>
 
-          <img className="socials-icons" src={twitter} alt="twitter" />
-          <img className="socials-icons" src={instagram} alt="instagram" />
-          <img className="socials-icons" src={strava} alt="strava" />
+
         </div>
       </div>
     </section>

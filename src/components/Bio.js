@@ -7,7 +7,7 @@ export default function Bio() {
       <div className="columns is-mobile">
         <div className="column remove-on-mobile">
           <div className="half-container">
-            <img src={bioImage} className="bio-image" alt="profile"/>
+            <img src={bioImage} className="bio-image" alt="profile" />
           </div>
         </div>
         <div className="column is-full-mobile">
@@ -16,13 +16,16 @@ export default function Bio() {
               FINN FITZGERALD
             </p>
             <p className="section-subtitle">
-              endurance coaching Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+              I am a lifelong sports fan, but specifically since 2011 I have worked hard as an athlete alongside a full time career in the sports industry. I completed Ironman Mallorca in 2016 and achieved my goal of becoming a category 2 British Cycling racer a couple of years later.
+              <br />
+              <div className="spacing"></div>
+              In 2020 I made the decision to start taking steps towards becoming a full-time endurance sports coach. I have created and led training plans for athletes with a variety of goals and the joint sense of achievement between athlete and coach when a plan comes together is unbeatable.
             </p>
-            <a href="https://finnfitzgerald.medium.com/" 
-              target="_blank" 
+            <a href="https://finnfitzgerald.medium.com/"
+              target="_blank"
               className="pink-button pink-background"
               rel="noreferrer"
-              >VISIT THE BLOG
+            >VISIT MY BLOG
             </a>
           </div>
         </div>

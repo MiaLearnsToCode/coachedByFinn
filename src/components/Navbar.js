@@ -20,7 +20,7 @@ export default function Navbar() {
             <li><a href="#bio">BIO</a></li>
             <li><a href="#coaching">COACHING</a></li>
             <li><a href="#blog">BLOG</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="mailto:info@coachedbyfinn.com" target="_blank" rel="noreferrer">CONTACT</a></li>
           </ul>
         </div>
       </nav>

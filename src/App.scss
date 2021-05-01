@@ -185,6 +185,17 @@ a {
   color: inherit;
 }
 
+.spacing {
+  height: 10px;
+}
+
+.testimonial-name {
+  display: flex;
+  justify-content: flex-start;
+  font-style: italic;
+  color: rgb(129, 129, 129);
+}
+
 @media screen and (max-width: 800px) {
   .remove-on-mobile {
     display: none;
@@ -212,7 +223,7 @@ a {
   }
 
   .socials-icons {
-    height: 80px;
+    height: 60px;
     margin: 20px;
   }
 
